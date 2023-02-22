@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-color: darkslategray;
+    background-image: url(../wonderdome_high.jpg);
+    background-attachment: fixed;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+}
+header{
+    background-color: darkslategrey;
+}
+#logo_container img{
+    height: 65%;
+  
+}
+.row a{
+    margin-top: 30px;
+}
+nav{
+    display: inline-block;
+}
+a:link{
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+a:active{
+    color: tomato;
+}
+a:visited{
+    color: white;
+}
+#recherche{
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+}
+#content{
+    margin-top: 100px;
+}
+#carouselExampleIndicators{
+    width: 60%;
+    margin: auto;
+}
+
+.carte p{
+    background-color: darkslategrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    color:black;
+}
+#footer{
+    background-color: rgba(0, 140, 255, 0.678);
+    vertical-align: bottom;
+}
+#footer1 img{
+    height: 150px;
+}
+.row .element div{
+    margin-top: 50px;
+}
+.element div div{
+    color: floralwhite;
+}
